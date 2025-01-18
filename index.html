@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayaat Atyaa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fustat:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link href="./styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input
+          id="menu"
+          type="checkbox"
+          name=""
+          class="burger-menu__checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox" />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="section bio">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’M A Passionate Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Ayaat Atyaa</span>, a Student in
+            <a
+              href="https://almdrasa.com/"
+              target="_blank"
+              class="bio__almdrasa"
+              >Almdrasa.com</a
+            >, Software Engineer and a content creator who publish content on
+            <a
+              href="https://www.linkedin.com/in/ayaat-atyaa-9697b6230/"
+              target="_blank"
+              class="bio__linkedin"
+              >LinkedIn</a
+            >
+            and
+            <a
+              href="https://medium.com/me/stories/drafts"
+              target="_blank"
+              class="bio__medium"
+              >Medium.</a
+            >
+          </p>
+
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="#" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pc-content">
+          <img
+            class="bio__pc"
+            src="./images/perconal-pc.png"
+            alt="photo of Ayaat" />
+        </div>
+      </section>
+
+      <section id="skills" class="section skills section--with-bg">
+        <h2 class="h2__heading">Skills</h2>
+        <ul class="skills__columns">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <img
+              src="./images/icons/html.png"
+              alt="photo of html"
+              class="icons" />
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <img
+              src="./images/icons/css-3.png"
+              alt="photo of css"
+              class="icons" />
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <img
+              src="./images/icons/atom.png"
+              alt="photo of react"
+              class="icons" />
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <img src="./images/icons/js.png" alt="photo of js" class="icons" />
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">UI/UX</h2>
+            <img
+              src="./images/icons/ui.png"
+              alt="photo of UI,UX"
+              class="icons" />
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Python</h2>
+            <img
+              src="./images/icons/python.png"
+              alt="photo of python"
+              class="icons" />
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2__heading">
+          MY FEATURED
+          <br />
+          PROJECTS
+        </h2>
+        <div class="projects__main">
+          <img
+            src="./images/profile-links.jpg"
+            alt="photo of project1"
+            class="projects__img" />
+          <div class="projects__data">
+            <h3 class="h3__heading">
+              Social Links <br />
+              Profile
+            </h3>
+            <p class="projects__description">
+              This project represents a personal profile section. It contains a
+              profile picture, name, location, profession, and links to various
+              social media platforms like GitHub, Frontend Mentor, LinkedIn,
+              Twitter, and Instagram. The design is clean and simple, focusing
+              on user interaction and visual appeal.
+            </p>
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3__heading">
+              Testimonials Section <br />
+              Page
+            </h3>
+            <p class="projects__description">
+              This project is a testimonial grid section displaying feedback
+              from verified graduates. Each card showcases a person's name,
+              occupation, and their detailed opinion on a program or service.
+              The layout is responsive and visually organized with vibrant
+              colors and readable fonts.
+            </p>
+          </div>
+          <img
+            src="./images/Testimonials grid section.jpg"
+            alt="photo of project2"
+            class="projects__img" />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2__heading">
+          What My
+          <br />
+          Clients Says.
+        </h2>
+        <div class="opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              "The personal profile section is clean and professional. The
+              social media links are easily accessible, making it simple to
+              connect with the user. Great work on the layout and design!"
+            </p>
+            <p class="clients__opinion">
+              "The testimonials grid section is visually appealing and
+              well-organized. The use of vibrant colors and clear fonts enhances
+              readability, and the responsive design works perfectly on all
+              devices."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+
+          <a href="mailto:example@gmail.com" class="contact__email">
+            example@gmail.com</a
+          >
+
+          <div class="contact__socials">
+            <a href="#" class="contact__social">
+              <img src="./images/brand/facebook.svg" alt="facebook" />
+            </a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/twitter.svg" alt="twitter" />
+            </a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/youtube.svg" alt="youtube" />
+            </a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/github.svg" alt="github" />
+            </a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/instagram.svg" alt="instagram" />
+            </a>
+            <a href="#" class="contact__social">
+              <img src="./images/brand/LinkedIn.svg" alt="linkedin" />
+            </a>
+          </div>
+        </div>
+        <div class="contact__formContent">
+          <h2 class="h2__heading">
+            Let’s Work <br />
+            Together!
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                class="contact__input"
+                name="name"
+                placeholder="Full Name"
+                required />
+              <input
+                type="tel"
+                class="contact__input"
+                name="tel"
+                placeholder="Phone No"
+                required
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              id="description"
+              name="message"
+              placeholder="Your Message"
+              rows="1"
+              required></textarea>
+            <input type="submit" class="contact__button" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">© 2025 By Ayaat Atyaa</footer>
+    </div>
+  </body>
+</html>
